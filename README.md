@@ -1,6 +1,6 @@
 ### Overview
 
-This repo contains scripts for gathering crime data from Halifax Regional Municipality's open data API. 
+This repo contains scripts for gathering crime data from Halifax Regional Municipality's open data API. Using a get request the data is returned in a json file, upon which the key:value pairs are extracted, modelled and merged to form a dataframe. 
 
 Only the previous 7 days of crime data are made available via [Halifax Open Data](http://catalogue-hrm.opendata.arcgis.com/).
 
