@@ -10,9 +10,9 @@ Overtime this will provide a rich dataset for analysis of crime in the HRM.
 
 ### Scripts
 
-The cloud_function script is intended to be fully automated via Google Cloud Platform (see below). The script queries the BigQuery table to determine the most recent record, and appends new records by writing to the existing table.
+The main.py script is intended to be fully automated via Google Cloud Platform (see below). The script queries the BigQuery table to determine the most recent record, and appends new records by writing to the existing table.
 
-The output_csv script will output the data to a csv file.
+The main_output_csv.py script will output the data to a csv file.
 
 ### Automating data gathering using Google Cloud Platform
 
