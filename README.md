@@ -6,13 +6,15 @@ Only the previous 7 days of crime data are made available via [Halifax Open Data
 
 When scheduled to run daily (or weekly at a minimum) this script connects to the Halifax Open Data API, and appends the new crime records to your dataset based on the event date. 
 
-Overtime this will provide a rich dataset for analysis of crime in the HRM. 
+### Outcome
+
+Over time, running this script will provide a rich dataset for analysis of crime in the HRM, and will make for an interesting project. 
 
 ### Scripts
 
-The main.py script is intended to be fully automated via Google Cloud Platform (see below). The script queries the BigQuery table to determine the most recent record, and appends new records by writing to the existing table.
+The `main.py` script is intended to be fully automated via Google Cloud Platform (see below). The script queries the BigQuery table to determine the most recent record, and appends new records by writing to the existing table.
 
-The main_output_csv.py script will output the data to a csv file.
+The `main_output_csv.py` script will output the data to a csv file.
 
 ### Automating data gathering using Google Cloud Platform
 
